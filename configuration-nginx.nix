@@ -9,7 +9,7 @@ imports = [ <nixpkgs/nixos/modules/virtualisation/amazon-image.nix> ];
 
              ];
 security.acme.acceptTerms = true;
-security.acme.email = "adminacme@shadowside.tk";
+security.acme.email = "admin+acme@shadowside.tk";
 services.nginx = {
   enable = true;
   virtualHosts."shadowside.tk" = {
